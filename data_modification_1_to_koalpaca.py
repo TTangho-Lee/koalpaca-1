@@ -1,6 +1,8 @@
 import json
 import re
 
+
+
 def extract_choices(sentence):
     """
     {A/B} 형태의 선택지를 찾아 A, B를 반환하고, 원문을 A와 B로 치환한 문장 2개를 생성
